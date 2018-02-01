@@ -10,9 +10,9 @@ function spy(string) {
 function logShout(string) {
   spy("HELLO")
 }
-function spy(string){
+function spyOn(string){
   console.log('hello')
 }
 function logWhisper(string) {
-  console.log('hello')
+  spyOn('hello')
 }
