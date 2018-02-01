@@ -9,5 +9,5 @@ function spy(shout) {
 }
 
 function logShout(string){
-  console.log(spy('HELLO'))
+  console.log(spy)
 }
