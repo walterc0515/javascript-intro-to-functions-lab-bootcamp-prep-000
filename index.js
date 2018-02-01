@@ -17,9 +17,9 @@ function logWhisper(string) {
   spyOn('hello')
 }
 function sayHiToGrandma(whisper) {
-  return "hello"
+  whisper("hello")
 }
-function sayHitoGrandma("HELLO") {
+function sayHitoGrandma(shout) {
   shout("hello")
 }
 function sayHiToGrandma("I love you, Grandma.") {
