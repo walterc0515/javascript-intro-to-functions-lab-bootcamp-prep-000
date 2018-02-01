@@ -17,7 +17,7 @@ function logWhisper(string) {
   spyOn('hello')
 }
 function sayHiToGrandma() {
-  logShout("hello")
+  Shout("hello")
 }
 if ("hello") {
   "I can't hear you!"
