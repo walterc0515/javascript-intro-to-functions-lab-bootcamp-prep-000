@@ -22,7 +22,10 @@ function sayHiToGrandma(whisper) {
 function sayHitoGrandma(shout) {
   shout("hello")
 }
-function sayHiToGrandma() {
+function love(){
+  console.log("I love you, Grandma.")
+}
+function sayHiToGrandma(love) {
   console.log("I love you, Grandma.")
 }
 
