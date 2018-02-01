@@ -16,13 +16,13 @@ function spyOn(string){
 function logWhisper(string) {
   spyOn('hello')
 }
-function sayHiToGrandma("hello") {
+function sayHiToGrandma() {
   whisper("hello")
 }
-function sayHitoGrandma("HELLO") {
+function sayHitoGrandma() {
   shout("hello")
 }
-function sayHiToGrandma("I love you, Grandma.") {
+function sayHiToGrandma() {
   console.log("I love you, Grandma.")
 }
 
