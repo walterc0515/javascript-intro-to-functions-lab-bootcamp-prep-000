@@ -16,12 +16,6 @@ function spyOn(string){
 function logWhisper(string) {
   spyOn('hello')
 }
-function sayHiToGrandma(whisper) {
-  console.log("hello")
-}
-function sayHiToGrandma(shout) {
-  console.log("HELLO")
-}
 if ("hello") {
   "I can't hear you!"
 }
